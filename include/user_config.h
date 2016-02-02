@@ -39,7 +39,6 @@ void ICACHE_FLASH_ATTR mqttPublishedCb(uint32_t *args);
 void ICACHE_FLASH_ATTR mqttParseMessage(const char* topic, uint32_t topic_len, const char *data, uint32_t data_len);
 void ICACHE_FLASH_ATTR mqttDataCb(uint32_t *args, const char* topic, uint32_t topic_len, const char *data, uint32_t data_len);
 void ICACHE_FLASH_ATTR publishClimateTimerCb(uint32_t *args);
-void ICACHE_FLASH_ATTR gpioSetup(void);
 void ICACHE_FLASH_ATTR timerSetup(MQTT_Client *mqttClient);
 void ICACHE_FLASH_ATTR i2cSetup(void);
 void ICACHE_FLASH_ATTR user_init(void);
